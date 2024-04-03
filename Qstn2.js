@@ -1,4 +1,4 @@
-// Function to generate an array of numbers from start to end (inclusive)
+// Function to generate an array of numbers from start to end 
 function generateArray(start, end) {
     // Initialize an empty array to store the generated numbers
     let arr = [];
@@ -12,5 +12,5 @@ function generateArray(start, end) {
     return arr;
 }
 
-console.log(generateArray(4, 7)); // [4, 5, 6, 7]
-console.log(generateArray(-4, 7)); // [-4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7]
+console.log(generateArray(4, 7)); 
+console.log(generateArray(-4, 7)); 

@@ -5,7 +5,7 @@ function isPrime(num) {
     
     // Loop through all numbers from 2 to the square root of the number
     for (let i = 2; i <= Math.sqrt(num); i++) {
-        // If the number is divisible by any other number (excluding 1 and itself), it's not prime
+        // If the number is divisible by any other number 
         if (num % i === 0) return false;
     }
     // If the loop completes without finding any divisors, the number is prime
@@ -18,4 +18,4 @@ function filterPrimes(arr) {
     return arr.filter(num => isPrime(num));
 }
 
-console.log(filterPrimes([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])); // [2, 3, 5, 7]
+console.log(filterPrimes([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])); 

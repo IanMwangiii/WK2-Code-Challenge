@@ -24,4 +24,4 @@ function swapCase(str) {
     return result.join('');
 }
 
-console.log(swapCase('The Quick Brown Fox')); // tHE qUICK bROWN fOX
+console.log(swapCase('The Quick Brown Fox')); 
